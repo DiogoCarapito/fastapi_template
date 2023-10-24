@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=app --cov=utils tests/*.py
+	python -m pytest -vv --cov=main *.py
 
 format:
 	black . *.py

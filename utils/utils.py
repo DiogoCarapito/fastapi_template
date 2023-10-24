@@ -1,2 +1,2 @@
-def func():
-    return None
+def hello():
+    return "Hello world!"
