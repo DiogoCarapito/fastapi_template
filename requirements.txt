@@ -4,6 +4,6 @@ pytest-cov==4.1.0
 black==23.9.1
 #ipython==8.13.0
 
-fastapi
-pydantic
-uvicorn
+fastapi==0.88.0
+pydantic==1.10.2
+uvicorn==0.20.0
