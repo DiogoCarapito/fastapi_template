@@ -9,7 +9,8 @@ format:
 	black . *.py
 
 lint:
-	pylint --disable=R,C *.py utils/*.py
+	pylint --disable=R,C --extension-pkg-whitelist='pydantic' main.py --ignore-patterns=test_.*?py *.py  utils/*.py
+
 
 container-lint:
 	docker run -rm -i hadolint/hadolint < Dockerfile
