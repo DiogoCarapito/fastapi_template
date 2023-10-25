@@ -18,7 +18,7 @@ nano ~/.bashrc
 
 add to the bottom
 
-```
+```text
 # Source VirtualENV
 source ~/.venv/bin/activate
 ```
