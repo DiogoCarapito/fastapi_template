@@ -8,6 +8,20 @@ From Coursera's **MLOps | Machine Learning Operations** by Duke University
 
 # Cheat sheet
 
-virtual environement 
+*virtual environement*
+
+```bash
+virtualenv ~/.venv
+source ~/.venv/bin/activate
+nano ~/.bashrc
+```
+```
+# Source VirtualENV
+source ~/.venv/bin/activate
+```
 
 docker
+```bash
+docker build .
+
+``
