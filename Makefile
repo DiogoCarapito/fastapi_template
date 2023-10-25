@@ -11,7 +11,6 @@ format:
 lint:
 	pylint --disable=R,C --extension-pkg-whitelist='pydantic' main.py --ignore-patterns=test_.*?py *.py  utils/*.py
 
-
 container-lint:
 	docker run -rm -i hadolint/hadolint < Dockerfile
 
@@ -19,9 +18,6 @@ refactor:
 	format lint
 
 run:
-	python main.py
-
-run-uvicorn:
 	uvicorn main:app --reload
 
 deploy:
