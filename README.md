@@ -8,6 +8,6 @@ From Coursera's MLOps | Machine Learning Operations by Duke University
 
 # Cheat sheet
 
-environement 
+virtual environement 
 
 docker
