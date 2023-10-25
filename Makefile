@@ -18,7 +18,13 @@ container-lint:
 refactor:
 	format lint
 
+run:
+	python main.py
+
+run-uvicorn:
+	uvicorn main:app --reload
+
 deploy:
-#echo "deploy not implemented"
+	echo "deploy not implemented"
 
 all: install lint test format deploy
