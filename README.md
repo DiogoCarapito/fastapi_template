@@ -8,7 +8,7 @@ From Coursera's **MLOps | Machine Learning Operations** by Duke University
 
 # Cheat sheet
 
-## virtual environement
+### virtual environement
 
 ```bash
 virtualenv ~/.venv
@@ -23,7 +23,7 @@ add to the bottom
 source ~/.venv/bin/activate
 ```
 
-## docker
+### docker
 ```bash
 docker build .
 docker image ls
