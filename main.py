@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-# from pydantic import BaseModel
-import uvicorn
+#from pydantic import BaseModel
+#import uvicorn
 
 from utils import utils
 
