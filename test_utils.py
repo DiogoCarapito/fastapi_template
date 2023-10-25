@@ -3,4 +3,4 @@ import utils.utils as utils
 
 
 def test_hello():
-    assert utils.hello() == "Hello world!"
+    assert utils.hello() == "hello world!"
