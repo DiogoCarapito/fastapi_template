@@ -1,6 +1,6 @@
 # import pytest
-import utils.utils as utils
+from utils.utils import hello
 
 
 def test_hello():
-    assert utils.hello() == "hello world!"
+    assert hello() == "hello world!"
