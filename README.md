@@ -11,22 +11,33 @@ From Coursera's **MLOps | Machine Learning Operations** by Duke University
 ### virtual environement
 
 ```bash
-virtualenv ~/.venv
-source ~/.venv/bin/activate
-nano ~/.bashrc
+python3 -m venv .venv
+```
+
+```bash
+source .venv/bin/activate
+````
+
+```bash
+#nano ~/.bashrc
 ```
 
 add to the bottom
-
-```text
+```mk
 # Source VirtualENV
-source ~/.venv/bin/activate
+#source ~/.venv/bin/activate
 ```
 
 ### docker
 ```bash
-docker build .
-docker image ls
+docker build -t main .
+docker images
 # Copy IMAGE ID
-docker run -p 127.0.0.1:8080:8080  <IMAGE ID>
+docker run -p 127.0.0.1:8080:8080 <IMAGE ID>
 ```
+
+api is now available at 
+[http://127.0.0.1:8080/](http://127.0.0.1:8080/)
+
+api docs are now available at
+[http://127.0.0.1:8080/docs](http://127.0.0.1:8080/docs)
